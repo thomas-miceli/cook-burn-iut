@@ -1,0 +1,20 @@
+
+html,
+body {
+  font-size: 14px;
+}
+
+
+/*--------------
+    Masthead
+---------------*/
+
+
+
+#example .masthead .grid {
+  position: relative;
+  z-index: 2;
+}
+#example .masthead .column {
+  display: table;
+}

@@ -1,0 +1,40 @@
+{
+    "name": "thomas-miceli/cook-burn",
+    "description": "Projet IUT Aix (PHP 2018)",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andrea Garcia",
+            "email": "andrea.garcia@etu.univ-amu.fr"
+        },
+        {
+            "name": "Dylan March",
+            "email": "dylan.march@etu.univ-amu.fr"
+        },
+        {
+            "name": "Thomas Miceli",
+            "email": "thomas.miceli@etu.univ-amu.fr"
+        },
+        {
+            "name": "Ugo Orlando",
+            "email": "ugo.orlando@etu.univ-amu.fr"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/",
+            "core/"
+        ],
+        "psr-4": {
+            "Src\\": "src/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "respect/validation": "^1.1",
+        "pagerfanta/pagerfanta": "^2.0",
+        "google/recaptcha": "^1.2",
+        "squizlabs/php_codesniffer": "^3.3",
+      "ext-pdo": "*"
+    }
+}
